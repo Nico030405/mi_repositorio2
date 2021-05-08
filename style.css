@@ -1,0 +1,204 @@
+body {
+    display: grid;
+  font-size: 16px; }
+
+main {
+  background-color: grey; }
+
+ul {
+  list-style: none; }
+  ul li {
+    display: inline-block; }
+    ul li a {
+      text-decoration: none;
+      color: #444; }
+
+footer {
+  background-color: blue;
+  background-size: 50%; }
+  h1 {
+    color: rgb(35, 204, 190);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+    text-align: center;
+
+} 
+li {
+    color: green;
+    border-top: solid grey;
+    border-left: solid orangered;
+    border-right: solid  red;
+    border-bottom: solid  pink;
+}
+h2 {
+    color: violet;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px ;
+    padding-left: 50px;
+}
+h3 {
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px ;
+    padding-left: 50px;
+    border: transparent;
+}
+.ulicons {
+    list-style: none;
+    padding-inline-start: 0mm;
+    padding-right: 10mm;
+    padding-left: 30cm;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+.hello {
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: yellow;
+    }
+.hello__li__a:hover {
+    background-color:yellow;
+  }
+
+.word {
+    display: flex;
+    transition: 3s;
+}
+ 
+.imagen1 {
+    height: 550px;
+    width: 100%;
+}
+.parrafo {
+    transform: rotate(360);
+    color: black;
+    font-family: 'Chango', cursive;
+    text-align: justify;
+    position: absolute;
+    padding-top: 200px;
+    padding-right: 300px;
+    padding-left: 450px;
+}
+p {
+    color: turquoise;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+}
+.turnos {
+    padding-top: 2px;
+}
+.gridd {
+    display: grid;
+    padding-left: 2px;
+    grid-template-columns: 400px 400px 400px
+}
+.ulfooter {
+    list-style: none;
+    padding-left: 1000px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-between;
+    padding-top: 65px;
+    border:transparent;
+}
+.ulfooter2 {
+    list-style: none;
+    padding-left: 50px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding-top: 60px;
+    border: transparent;
+}
+.imagen2 {
+    transform: rotate(360deg);
+    height: 200px;
+    
+}
+
+.imagen4 {
+    height: 400px;
+}
+image {
+    transform: rotate(360deg);
+}
+.backgroundindex {
+    background-color: lawngreen;
+}
+.backgroundpsico {
+    background-color: rgb(238, 231, 231);
+}
+.backgroundreiki {
+    background-color: rgb(240, 78, 232);
+}
+.backgroundquien {
+    background-color: rgb(236, 221, 8);
+}
+.backgroundcontact {
+    background-color: rgb(241, 141, 233);
+}
+.menu {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .menu:hover {
+    background-color:blue;
+    color: yellow;
+  }
+.dates {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    }
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+.gradinicio {
+    background-image: linear-gradient(to left, rgb(105, 105, 109) , rgb(221, 221, 198));
+   }
+.gradpsico {
+    background-image: linear-gradient(to left, rgb(147, 151, 147) , rgb(147, 151, 147));
+   }
+.gradreiki {
+    background-image: linear-gradient(to left, orangered, yellow);
+   }
+.gradquien {
+    background-image: linear-gradient(to left, rgb(255, 0, 0), green);
+   }
+.gradcontact {
+    background-image: linear-gradient(to left, yellow, rgb(43, 255, 0));
+   }
+@media screen and (max-width: 600px) {
+    .content {
+        display: grid;
+    }
+    .parrafo {
+        padding-left: 250px;
+    }
+    .ulfooter {
+        padding-left: 10px;
+       
+    }
+    .ulfooter2 {
+        padding-top: 150px;
+        padding-left: 10px;
+    }
+
+
+}

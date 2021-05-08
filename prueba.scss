@@ -1,0 +1,30 @@
+$base-font-size: 16px;
+$base-backgroundcolor: blue;
+$base-backgroundsize: 50%;
+$cool-color: yellow;
+$main-background: grey;
+
+body {
+    font-size: $base-font-size;
+}
+
+main
+    {
+        background-color: $main-background;
+    }
+    ul {
+        list-style: none;
+             li {
+                  
+                  display: inline-block;
+                    a {
+                        text-decoration: none;
+                               
+                        color: #444;
+                    }
+                    }
+       }
+footer {
+    background-color: $base-backgroundcolor;
+    background-size: $base-backgroundsize;
+}       
